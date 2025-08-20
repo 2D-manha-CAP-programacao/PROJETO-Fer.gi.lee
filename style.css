@@ -3,7 +3,7 @@
 :root{
     --texto-color:white;
     --card-front-color:red;
-    --card-back-color:orange;
+    --card-back-color:#ffa500;
 
 
 }
@@ -73,7 +73,7 @@ footer p{
     font-weight: 700;
 }
 
-.cartao:hover .cartao_conteudo{
+.cartao:active .cartao_conteudo{
     transform: rotateY('180deg');
 }
 
@@ -87,6 +87,7 @@ footer p{
 
 .cartao_conteudo_resposta {
     transform: rotateY(180deg)
+    background-color: var(--card-back-color);
 }
 
 .cartao_conteudo p {
